@@ -28,7 +28,7 @@ echo "\033[1m\nTagging current commit: $VERSION_TAG\033[0m"
 echo "\033[1m\nPushing $VERSION_TAG tag to GitHub...\n\033[0m"
 git push origin $VERSION_TAG
 
-echo "\033[1m\nPushing current commit tag to GitHub...\n\033[0m"
+echo "\033[1m\nPushing current commit to GitHub...\n\033[0m"
 git push origin main
 
 echo "\033[1m\nCreating $VERSION_TAG release on GitHub\033[0m"
